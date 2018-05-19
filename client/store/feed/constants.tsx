@@ -1,0 +1,7 @@
+export const SET_FEED_DETAIL = 'SET_FEED_DETAIL';
+
+export const ADD_FEED_LIST = 'ADD_FEED_LIST';
+
+export const REPLACE_FEED_LIST = 'REPLACE_FEED_LIST';
+
+export const SET_FEED_LIST_SCROLL_TOP = 'SET_FEED_LIST_SCROLL_TOP';

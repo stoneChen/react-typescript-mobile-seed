@@ -1,0 +1,14 @@
+# pm2 配置文件
+# docker在外层已经有自动重启机制，所以只用一个实例
+
+script: 'server/index.js'
+cwd: '.'
+instances: 1
+exec_mode: 'cluster'
+# 错误和正常信息输出到同一个文件
+merge_logs: true
+out_file: 'logs/stdout.log'
+error_file: 'logs/stdout.log'
+log_date_format: 'YYYY-MM-DD HH:mm:ss'
+env:
+  NODE_ENV: 'production'

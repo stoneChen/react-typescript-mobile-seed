@@ -1,0 +1,9 @@
+.idea
+.vscode
+.out
+dist
+public
+node_modules
+
+#server.config.js
+#upyun.config.js
